@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.reneavila.traves" >
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MenuPricipal"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".IniciarSesion" >
+        </activity>
+        <activity android:name=".elegirTipoResgistro" >
+        </activity>
+        <activity android:name=".RegistroConductor" >
+        </activity>
+        <activity android:name=".RegistroPasajero" >
+        </activity>
+        <activity android:name=".RegistroAuto" >
+        </activity>
+        <activity android:name=".HomePasajero"
+            android:label="Traves ( Pasajero )" >
+        </activity>
+        <activity android:name=".PPerfil"
+            android:label="Traves ( Pasajero )" >
+        </activity>
+        <activity android:name=".HomeConductor"
+            android:label="Traves ( Conductor )" >
+        </activity>
+        <activity android:name=".CPerfil"
+            android:label="Traves ( Conductor )" >
+        </activity>
+
+    </application>
+
+</manifest>
